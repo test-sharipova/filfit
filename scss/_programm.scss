@@ -4,7 +4,7 @@
     padding-bottom: 111px;
     &_train {
         background: var(--purple-middle);
-        padding-bottom: 222px;
+        padding-bottom: 224px;
         .title {
             span {
                 display: block;
@@ -32,6 +32,7 @@
             margin-bottom: 0;
         }
     }
+    
     &__crumbs {
         display: flex;
         justify-content: flex-start;
@@ -43,12 +44,12 @@
         &__item {
             height: 68px;
             white-space: nowrap;
-            padding: 8px 32px;
+            padding: 8px 32px 8px 37px;
             border-radius: 16px;
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            gap: 12px;
+            gap: 16px;
             font-size: 18px;
             width: fit-content;
             background-color: var(--purple-light);
@@ -70,6 +71,8 @@
         aspect-ratio: 1/1;
         border-radius: 100%;
         overflow: hidden;
+        align-self: center;
+        margin-top: -24px;
         img {
             width: 100%;
             height: 100%;
@@ -95,12 +98,12 @@
     }
     &__list {
         padding: 0;
-        margin: 0;
+        
         list-style-type: none;
         li {
             position: relative;
             padding-left: 36px;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
             font-size: 18px;
             &::before {
                 content: '';
@@ -111,7 +114,7 @@
                 background-color: var(--purple-dark);
                 position: absolute;
                 top: 7px;
-                left: 16px;
+                left: 8px;
                 
             }
         }
@@ -134,12 +137,15 @@
         line-height: 156%;
         color: var(--purple-dark);
         margin: 8px 0 16px;
+        &.mb_50 {
+            margin-bottom: 50px;
+        }
     }
     &__bonus {
         background-color: var(--purple-light);
         border-radius: 16px;
         max-width: 424px;
-        padding: 40px 40px 28%;
+        padding: 40px 40px 24%;
         background-image: 
         image-set("../img/bonus.png" 1x, "../img/bonus-2x.png" 2x);
         
@@ -148,7 +154,10 @@
         background-size: 100%;
     }
     &__price {
-        margin-top: 48px;
+        margin-top: 24px;
+        .mt_48 {
+            margin-top: 48px;
+        }
         .wrapper {
             padding: 40px 40px 36px;
             background: url(../img/price-bg.jpg) no-repeat center/cover;
@@ -165,6 +174,16 @@
         background-color: var(--green-middle);
        margin-top: -111px;
        padding-bottom: 222px;
+       .title {
+            span {
+               
+                border-radius: 64px;
+                background: var(--orange-middle);
+                width: fit-content;
+                margin: 0 auto;
+                padding: 3px 0 3px 16px;
+            }
+        }
         .programm {
             &__crumbs {
                 &__item {
@@ -177,6 +196,12 @@
            
             &__list {
                 margin-bottom: 70px;
+                &.mb_8 {
+                    margin-bottom: 8px;
+                }
+                &.mb_24 {
+                    margin-bottom: 24px;
+                }
                 &.mb_0 {
                     margin-bottom: 0;
                 }
@@ -249,6 +274,9 @@
             gap: 32px;
             padding: 0;
             list-style-type: none;
+            &_g24 {
+                gap: 24px;
+            }
         }
     }
     &__list {
@@ -273,6 +301,7 @@
         justify-content: flex-start;
         &::before {
             width: 56px;
+            min-width: 56px;
             height: 56px;
             content: '';
             display: block;
@@ -317,6 +346,17 @@
     &_slim {
         background: var(--orange-middle);
         margin-top: -111px;
+        border-radius: 120px;
+        .title {
+            span {
+               
+                border-radius: 64px;
+                background: var(--purple-middle);
+                width: fit-content;
+                margin: 0 auto;
+                padding: 3px 16px 3px 16px;
+            }
+        }
         .btn_subscribe {
             background-color: var(--purple-dark);
             color: #fff;
@@ -332,6 +372,33 @@
                     &::after {
                         background-color: #cc3aff;
                     }
+                }
+            }
+        }
+        .programm {
+            &__list {
+                li {
+                    &::before {
+                        background-color: var(--orange-dark);
+                    }
+                }
+            }
+            &__subtitle {
+                color: var(--orange-dark);
+            }
+            &__price {
+                .wrapper {
+                    background: url(../img/price-bg-purple.jpg) no-repeat center/cover;
+                }
+            }
+            &__name {
+                &-span {
+                    display: inline-block;
+                    border-radius: 64px;
+                    background: var(--purple-middle);
+                    width: fit-content;
+                    margin: 3px 0 0;
+                    padding: 3px 16px;
                 }
             }
         }
@@ -358,6 +425,9 @@
         padding: 24px 32px;
         text-align: center;
         min-height: 104px;
+    }
+    &__descr {
+        max-width: 90%;
     }
 }
 .gc1-1 {

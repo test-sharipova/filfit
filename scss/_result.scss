@@ -27,7 +27,7 @@
             border-radius: 100%;
             cursor: pointer;
             position: absolute;
-            top: -120px;
+            top: -109px;
             right: 0;
         }
         .slick-next {
@@ -42,6 +42,7 @@
         margin: 0 16px;
     }
     &__photo {
+        height: 393px;
         img {
             display: block;
             width: 100%;

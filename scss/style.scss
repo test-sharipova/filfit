@@ -76,8 +76,14 @@ button, input, textarea, a {
 }
 
 //margins
+.mb-12 {
+    margin-bottom: -12px;
+}
 .mb_0 {
     margin-bottom: 0;
+}
+.mb_8 {
+    margin-bottom: 8px;
 }
 .mb_12 {
     margin-bottom: 12px;
@@ -100,11 +106,20 @@ button, input, textarea, a {
 .mb_48 {
     margin-bottom: 48px;
 }
+.mb_50 {
+    margin-bottom: 50px;
+}
+.mb_54 {
+    margin-bottom: 54px;
+}
 .mb_64 {
     margin-bottom: 64px;
 }
 .mb_77 {
     margin-bottom: 77px;
+}
+.mb_80 {
+    margin-bottom: 80px;
 }
 
 //wrappers
@@ -275,6 +290,15 @@ button, input, textarea, a {
         }
         &:hover {
             background-color: var(--orange-light);
+        }
+    }&-orange {
+        background-color: var(--orange-dark);
+        color: var(--text);
+        &::after {
+            background-color: var(--text);
+        }
+        &:hover {
+            background-color: #ffcc80;
         }
     }
 }
