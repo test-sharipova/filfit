@@ -4,6 +4,7 @@
     padding-bottom: 111px;
     &_train {
         background: var(--purple-middle);
+        padding-bottom: 222px;
         .title {
             span {
                 display: block;
@@ -162,7 +163,8 @@
 
     &_detox {
         background-color: var(--green-middle);
-       
+       margin-top: -111px;
+       padding-bottom: 222px;
         .programm {
             &__crumbs {
                 &__item {
@@ -314,6 +316,7 @@
     }
     &_slim {
         background: var(--orange-middle);
+        margin-top: -111px;
         .btn_subscribe {
             background-color: var(--purple-dark);
             color: #fff;
