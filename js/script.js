@@ -19,7 +19,7 @@
 
 
 
-//слайдер порядок поступления
+//слайдер до и после
 $('.result__slider').slick({
   infinite: true,
   slidesToShow: 2,
@@ -40,6 +40,24 @@ $('.result__slider').slick({
 
 });
 
+//слайдер отзывы
+$('.rew__slider').slick({
+  infinite: true,
+  
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        
+        arrows: false,
+        dots: true
+      }
+    },
+    
+   
+  ]
+
+});
 
 //маска для телефона
 

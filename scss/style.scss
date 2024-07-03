@@ -1,10 +1,14 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 @import '_vari.scss';
 body {
     font-family: var(--font-family);
     color: var(--text);
+    
 }
 .visually-hidden {
     position: absolute;
@@ -384,3 +388,4 @@ button, input, textarea, a {
 @import '_serv.scss';
 @import '_result.scss';
 @import '_programm.scss';
+@import '_rew.scss';
