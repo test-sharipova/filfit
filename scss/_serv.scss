@@ -1,0 +1,32 @@
+.serv {
+    padding: 104px 0 112px;
+    background-color: var(--green-dark);
+    background-image: url(../img/serv-bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px;
+    .title {
+        text-wrap: balance;
+
+    }
+    &__wrapper {
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 32px;
+       
+    }
+    &__item {
+        background-color: #fff;
+        padding: 40px;
+        text-align: center;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        .fs_18 {
+            flex-grow: 1;
+            margin-bottom: 20px;
+        }
+    }
+}

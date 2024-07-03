@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>ФилФитМарафон</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <script defer src="js/jquery-3.6.3.min.js"></script>
+    <script defer src="js/imask.js"></script>
+    <script defer src="js/slick.min.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header__wrapper">
+            <ul class="soc">
+                <li class="soc__item">
+                    <a href="#" class="soc__link">
+                        <span class="soc__link__img soc__link_telegram"></span>
+                        <span class="visually-hidden">телеграм</span>
+                    </a>
+                    
+                </li>
+                <li class="soc__item">
+                    <a href="#" class="soc__link ">
+                        <span class="soc__link__img soc__link_vk"></span>
+                        <span class="visually-hidden">вконтакте</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#" class="menu__link">Программа тренировок</a></li>
+                <li><a href="#" class="menu__link">Детокс программа</a></li>
+                <li><a href="#" class="menu__link">Массаж</a></li>
+                <li><a href="#" class="menu__link">Отзывы</a></li>
+            </ul>
+            <a href="cart.html" class="cart">
+                <span class="visually-hidden">Перейти в корзину</span>
+                <span class="cart__img"></span>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="promo">
+            <div class="container">
+               <div class="promo__content">
+                    <h1 class="promo__title">
+                        ФилФитМарафон
+                    </h1>
+                    <p class="promo__subtitle">
+                        проект созданный с любовью и заботой о вашем здоровье
+                    </p>
+               </div>
+            </div>
+        </section>
+        <section class="problems">
+            <div class="container">
+                <h2 class="title">
+                    Какие проблемы мы решаем
+                </h2>
+                <div class="problems__wrapper">
+                    <div class="problems__item problems__item_circle problems__item_purple-middle">
+                        <p class="fs_18 fw_700 lh_156">Лишний вес и излишки жировых отложений</p>
+                    </div>
+                    <div class="problems__item problems__item_square problems__item_img-bg1"></div>
+                    <div class="problems__item problems__item_square problems__item_bg1 problems__item_green-dark">
+                        <p class="fs_18 fw_700 lh_156">Неотрегулированный режим дня и проблемы со сном</p>
+                    </div>
+                    <div class="problems__item problems__item_circle problems__item_line problems__item_green-dark">
+                        <p class="fs_18 fw_700 lh_156">Плохое состояние кожи и наличие складок, растяжек</p>
+                    </div>
+                    <div class="problems__item problems__item_square problems__item_bg2 problems__item_purple-middle">
+                        <p class="fs_18 fw_700 lh_156 white">Повышенная утомляемость и недостаток энергии</p>
+                    </div>
+                    <div class="problems__item problems__item_square problems__item_line2 problems__item_green-middle">
+                        <p class="fs_18 fw_700 lh_156">Тяга к сладкому и любовь к заеданию</p>
+                    </div>
+                    <div class="problems__item problems__item_circle problems__item_purple-dark">
+                        <p class="fs_18 fw_700 lh_156 white">Проблемы с ЖКТ и слабый иммунитет</p>
+                    </div>
+                    <div class="problems__item problems__item_square problems__item_img-bg2"></div>
+                </div>
+            </div>
+        </section>
+        <section class="serv">
+            <div class="container">
+                <h2 class="title">Предлагаем комплексный подход по всем фронтам</h2>
+                <div class="serv__wrapper">
+                    <div class="serv__item">
+                        <p class="fs_24 lh_133 fw_700 mb_32">Детокс-программа</p>
+                        <p class="fs_18 lh_156">Специальная диета, основанная на комплексе нутриентов, которые выведут шлаки и токсины, улучшат работу органов и систем организма. </p>
+                        <a href="#" class="btn_orange">Узнать больше</a>
+                    </div>
+                    <div class="serv__item">
+                        <p class="fs_24 lh_133 fw_700 mb_32">Программа тренировок</p>
+                        <p class="fs_18 lh_156">Набор упражнений и тренировок, направленных на достижение ваших целей в фитнесе и здоровом образе жизни.</p>
+                        <a href="#" class="btn_purple">Узнать больше</a>
+                    </div>
+                    <div class="serv__item">
+                        <p class="fs_24 lh_133 fw_700 mb_32">Курс «Стройная Я»</p>
+                        <p class="fs_18 lh_156">Комбинированный массаж в сочетании с обертыванием.</p>
+                        <a href="#" class="btn_green">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="result">
+            <div class="container">
+                <h2 class="title">Результаты наших девчонок</h2>
+                <div class="result__slider">
+                    <div class="result__slide">
+                        <div class="result__slide__photos">
+                            <div class="result__photo result__photo_do">
+                                <img src="img/photo_result_1_1.jpg" alt="">
+                            </div>
+                            <div class="result__photo result__photo_posle">
+                                <img src="img/photo_result_1_2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result__slide">
+                        <div class="result__slide__photos">
+                            <div class="result__photo result__photo_do">
+                                <img src="img/photo_result_2_1.jpg" alt="">
+                            </div>
+                            <div class="result__photo result__photo_posle">
+                                <img src="img/photo_result_2_2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result__slide">
+                        <div class="result__slide__photos">
+                            <div class="result__photo result__photo_do">
+                                <img src="img/photo_result_1_1.jpg" alt="">
+                            </div>
+                            <div class="result__photo result__photo_posle">
+                                <img src="img/photo_result_1_2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="programm programm_train">
+            <div class="container">
+                <h2 class="title mb_48">
+                    <span>Тренировочная</span> программа
+                </h2>
+                <div class="programm__block">
+                    <p class="fs_40 fw_700 lh_120 mb_48">
+                        Тренировочная программа - <span class="green-underline">набор упражнений и тренировок</span>, направленных на достижение ваших целей в фитнесе и здоровом образе жизни.
+                    </p>
+                    <div class="wrapper">
+                        <div>
+                            <p class="fs_24 fw_700 lh_133">Сюда входит</p>
+                            <ul class="programm__crumbs">
+                                <li class="programm__crumbs__item">Выстраивание режима дня</li>
+                                <li class="programm__crumbs__item">Коуч сопровождение</li>
+                                <li class="programm__crumbs__item">Утренние зарядки</li>
+                                <li class="programm__crumbs__item">Разбор тарелки</li>
+                                <li class="programm__crumbs__item">Минимальная норма шагов</li>
+                                <li class="programm__crumbs__item">Разбор средств для домашнего ухода за телом</li>
+                                <li class="programm__crumbs__item">Каждодневные тренировки on-line (можно смотреть в записи)</li>
+                            </ul>
+                        </div>
+                        <div class="programm__circle">
+                            <img src="img/photo_trainings.jpg" alt="тренировка">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="programm__block">
+                    <div class="programm__block__content">
+                        <p class="fs_40 fw_700 lh_120 mb_77">Координатор тренировок <span>Анна Филиппова</span></p>
+                        <ul class="programm__list">
+                            <li>Основательница студии фитнеса</li>
+                            <li>Педагог-хореограф</li>
+                            <li>Фитнес-тренер</li>
+                            <li>Life coach</li>
+                        </ul>
+                    </div>
+                    <div class="programm__photo">
+                        <picture>
+                            <source type="image/webp" srcset="img/photo_anna.webp">
+                            <source srcset="img/photo_anna.png, img/photo_anna-2x.png 2x">
+                            
+                            <img alt="preview">
+                        </picture>
+                       
+                        <a href="#" class="btn_subscribe">
+                            Подписывайся
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+               </div>
+               <div class="programm__video">
+                    
+                <video controls playsinline width="100%">
+                    <source src="video/progr_video.webm" type="video/webm">
+                    <!-- <source src="flower.mp4" type="video/mp4"> -->
+                    Ваш браузер не поддерживает встроенные видео
+                </video>
+            </div>
+            <div class="container">
+                <div class="programm__block">
+                    <div class="wrapper">
+                       <div>
+                            <p class="fs_40 fw_700 lh_120">Тренировочная программа </p>
+                            <p class="programm__subtitle">Длительность: 11 недель </p>
+                            <p class="fs_24 lh_133 fw_700 mb_12">Сюда входит</p>
+                            <ul class="programm__list">
+                                <li>Выстраивание режима дня;</li>
+                                <li>Утренние зарядки;</li>
+                                <li>Каждодневные тренировки on-line (можно смотреть в записи);</li>
+                                <li> Минимальная норма шагов;</li>
+                                <li>Разбор тарелки;</li>
+                                <li>Разбор средств для домашнего ухода за телом;</li>
+                                <li> Коуч сопровождение.</li>
+                            </ul>
+                        </div>
+                        <div class="programm__bonus">
+                            <p class="fs_24 lh_133 fw_700 mb_16">Бонус для каждого участника</p>
+                            <p class="fs_18 lh_156">Cессия с психологом</p>
+                        </div>
+                    </div>
+                    <div class="programm__price">
+                        <div class="wrapper">
+                            <div>
+                                <p class="fs_24 fw_700 lh_133">Стоимость</p>
+                                <p class="fs_24 fw_700 lh_133">49 990 ₽</p>
+                            </div>
+                            <button type="button" class="btn_incart btn_incart-purple">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="programm programm_detox">
+            <div class="container">
+                <h2 class="title mb_48"><span>Детокс-</span>программа</h2>
+                <div class="programm__block">
+                    <p class="fs_40 fw_700 lh_120 mb_48">
+                        В детокс-программевы приобретаете для себя набор нутриентов и получаете <span class="orange-underline">полное сопровождение</span> 
+                    </p>
+                    <div class="wrapper">
+                        <div>
+                            <p class="fs_24 fw_700 lh_133">В полное сопровождение входит</p>
+                            <ul class="programm__crumbs">
+                                <li class="programm__crumbs__item">Доступ в чат</li>
+                                <li class="programm__crumbs__item">Ежедневные отчеты </li>
+                                <li class="programm__crumbs__item">Еженедельные замеры с фото и видео фиксацией</li>
+                                <li class="programm__crumbs__item">Поддержка координатора</li>
+                                <li class="programm__crumbs__item">Обратная связь</li>
+                                <li class="programm__crumbs__item">Контроль питания и водного баланса</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="programm__circle">
+                            <img src="img/photo_detox.jpg" alt="">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="programm__block">
+                    <div class="programm__block__content">
+                        <p class="fs_40 fw_700 lh_120 mb_77">Координатор Детокс-программы <span>Евгения Мокеева</span></p>
+                        <ul class="programm__list">
+                            <li>Косметолог-эстетист</li>
+                            <li>Специалист лазерной эпиляции и аппаратных методик</li>
+                            <li>Ваш консультант по красоте и здоровью</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="programm__photo">
+                        <picture>
+                            <source type="image/webp" srcset="img/photo-evgeniya.webp">
+                            <source srcset="img/photo-evgeniya.png, img/photo-evgeniya-2x.png 2x">
+                            
+                            <img alt="preview">
+                        </picture>
+                       
+                        <a href="#" class="btn_subscribe">
+                            Подписывайся
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="programm__block programm__block-step">
+                    <div class="programm__step">1 ЭТАП</div>
+                    <div class="programm__block__wrapper">
+                        <div>
+                            <h3 class="fs_40 lh_120 fw_700">Корал Детокс-Плюс</h3>
+                            <p class="programm__subtitle">Длительность программы: 21 день</p>
+                            <p class="fs_18 lh_156">Корал Детокс Плюс - это набор для активации выведения водо и жирорастворимых токсинов , которые накапливаются в нашем организме в связи с неправильным питанием, стрессами, воздействием физических, химических, биологических, радиационных факторов.</p>
+                        </div>
+                        <div class="programm__list__block">
+                            <p class="fs_24 fw_700 lh_133 mb_18">Какие продукты входят в состав:</p>
+                            <ul class="programm__list">
+                                <li>«Ассимилятор»</li>
+                                <li>«Н-500»</li>
+                                <li>«Корал-Майн Сильвер»</li>
+                                <li>«Корал Лецитин» </li>
+                                <li>«ПентоКан»</li>
+                                <li>«Корал Люцерна»</li>
+                                <li>«Омега - 3»</li>
+                            </ul>
+                        </div>
+                        <div class="programm__price programm__price_light">
+                            <div class="wrapper">
+                                <div>
+                                    <p class="fs_18 fw_700 lh_156">Тариф «Лайт»</p>
+                                    <p class="fs_24 fw_700 lh_133">13 464 ₽</p>
+                                </div>
+                                <button type="button" class="btn_incart btn_incart-green">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="programm__price programm__price_premium">
+                            <div class="wrapper">
+                                <div>
+                                    <p class="fs_18 fw_700 lh_156">Тариф «Премиум» 
+                                        <span class="tooltip">
+                                            <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date"></button>
+                                            <span class="tooltip__text" role="tooltip" id="tooltip-label-date">Дополнительные бады ускоряют процесс очищения, обмен веществ, способствуют быстрому восстановлению.</span>
+                                        </span>
+                                    </p>
+                                    <p class="fs_24 fw_700 lh_133">16 720 ₽</p>
+                                </div>
+                                <button type="button" class="btn_incart btn_incart-white">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="programm__block programm__block-step">
+                    <div class="programm__step">2 ЭТАП</div>
+                    <div class="programm__block__wrapper">
+                        <div>
+                            <h3 class="fs_40 lh_120 fw_700">Парашилдс - Плюс</h3>
+                            <p class="programm__subtitle">Длительность программы: 30 дней</p>
+                            <p class="fs_18 lh_156 textwrap-balance">Парашилд Плюс — это расширенная антипаразитарная программа для интенсивной защиты от паразитов. Основана на комплексном действие растительных экстрактов, ферментов, пробиотиков, витаминов и минералов.</p>
+                        </div>
+                        <div class="programm__list__block mb_64">
+                            <p class="fs_24 fw_700 lh_133 mb_18">Какие продукты входят в состав:</p>
+                            <ul class="programm__list">
+                                <li>«Парафайт»</li>
+                                <li>«Корал Черный Орех»</li>
+                                <li>«Корал Бурдок Рут»</li>
+                                <li>«Ассимилятор»</li>
+                                <li>«Кора муравьиного дерева с селеном»</li>
+                                <li>«МСМ»</li>
+                                <li>«СУПЕР-ФЛОРА»</li>
+                                <li>«КОРАЛ-МАЙН»</li>
+                            </ul>
+                        </div>
+                        <p class="fs_40 lh_120 fw_700 gc1-1">Программа способствует</p>
+                        <div class="programm__win">
+                            
+                            <p class="fs_18 lh_156">интенсивному очищению от различных внутренних паразитов</p>
+                        </div>
+                        <div class="programm__win">
+                            
+                            <p class="fs_18 lh_156">нормализации работы пищеварительной системы</p>
+                        </div>
+                        <div class="programm__win">
+                            
+                            <p class="fs_18 lh_156">восстановлению здоровой микрофлоры кишечника</p>
+                        </div>
+                        <div class="programm__win">
+                            
+                            <p class="fs_18 lh_156">укреплению иммунитета</p>
+                        </div>
+                        <div class="programm__price programm__price_light">
+                            <div class="wrapper">
+                                <div>
+                                    <p class="fs_18 fw_700 lh_156">Тариф «Лайт»</p>
+                                    <p class="fs_24 fw_700 lh_133">13 200 ₽</p>
+                                </div>
+                                <button type="button" class="btn_incart btn_incart-green">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="programm__price programm__price_premium">
+                            <div class="wrapper">
+                                <div>
+                                    <p class="fs_18 fw_700 lh_156">Тариф «Премиум» 
+                                        <span class="tooltip">
+                                            <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date1"></button>
+                                            <span class="tooltip__text" role="tooltip" id="tooltip-label-date1">Дополнительные бады ускоряют процесс очищения, обмен веществ, способствуют быстрому восстановлению.</span>
+                                        </span>
+                                    </p>
+                                    <p class="fs_24 fw_700 lh_133">16 016 ₽</p>
+                                </div>
+                                <button type="button" class="btn_incart btn_incart-white">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="programm__block programm__block-step">
+                    <div class="programm__step">3 ЭТАП</div>
+                    <div class="programm__block__wrapper">
+                        <div>
+                            <h3 class="fs_40 lh_120 fw_700">Коло-Вада Плюс</h3>
+                            <p class="programm__subtitle">Длительность программы: 14 дней</p>
+                            <p class="fs_18 lh_156">Программа Коло-Вада Плюс – эффективная комплексная программа, которая способствует очищению организма и восстановлению здоровой внутренней среды. Программа составлена таким образом, что дает возможность получить максимальный оздоровительный эффект, не вызывая чувство дискомфорта и сохраняя привычный ритм жизни. Биологически активные вещества из тщательно подобранных продуктов программы полностью компенсируют ограничения в питании. </p>
+                        </div>
+                        <div class="programm__list__block">
+                            <p class="fs_24 fw_700 lh_133 mb_18">Какие продукты входят в состав:</p>
+                            <ul class="programm__list">
+                                <li>«Алтимейт»</li>
+                                <li>«Каскара Саграда» </li>
+                                <li>«Листья черного ореха»</li>
+                                <li>«Витамин С»</li>
+                                <li>«Люцерна»</li>
+                                <li>«ДигестЭйбл»</li>
+                                <li>«Супер-Флора»</li>
+                                <li>«Порошок Коло-Вада Микс»</li>
+                                <li>«Корал-Майн»</li>
+                                
+                            </ul>
+                        </div>
+                        <p class="fs_40 lh_120 fw_700 gc1-1">Включает в себя 3 этапа</p>
+                        <div class="programm__steps gc1-1">
+                            <div class="programm__steps__item">
+                                <div class="programm__steps__num">1</div>
+                                <p class="fs_24 lh_133 fw_700 mb_12">Подготовка</p>
+                                <p class="fs_18 lh_156">Активные компоненты продуктов на этом этапе помогают нормализовать работу желудочно-кишечного тракта, корректируют витаминно-минеральный баланс, улучшают моторику кишечника.</p>
+                            </div>
+                            <div class="programm__steps__item">
+                                <div class="programm__steps__num">2</div>
+                                <p class="fs_24 lh_133 fw_700 mb_12">Очищение</p>
+                                <p class="fs_18 lh_156">Основной компонент этого этапа – коктейль из порошка Коло-Вада Микс –содержит в своем составе большое количество пищевых волокон.  Набухая в кишечнике, они обволакивают и выводят застоявшееся содержимое, способствуя тщательному очищению кишечника. </p>
+                            </div>
+                            <div class="programm__steps__item">
+                                <div class="programm__steps__num">3</div>
+                                <p class="fs_24 lh_133 fw_700 mb_12">Восстановление</p>
+                                <p class="fs_18 lh_156">Продукты завершающего этапа помогают восстановить микрофлору кишечника и улучшить усвоение питательных веществ за счет комплекса пробиотических культур (бифидо- и лактобактерий), пребиотиков и пищеварительных ферментов. </p>
+                            </div>
+                        </div>
+                        <p class="fs_40 lh_120 fw_700 gc1-1">Программа помогает</p>
+                        <div class="programm__win">
+                            <p class="fs_18 lh_156">активировать работу пищеварительной, выделительной, лимфатической систем</p>
+                        </div>
+                        <div class="programm__win">
+                            <p class="fs_18 lh_156">очистить организм от токсинов и застоявшегося содержимого кишечника</p>
+                        </div>
+                        <div class="programm__win">
+                            <p class="fs_18 lh_156">улучшить состояние кожи</p>
+                        </div>
+                        <div class="programm__win">
+                            <p class="fs_18 lh_156">повысить жизненный тонус и работоспособность</p>
+                        </div>
+                        <div class="programm__price programm__price_light">
+                            <div class="wrapper">
+                                <div>
+                                    <p class="fs_18 fw_700 lh_156">Тариф «Лайт»</p>
+                                    <p class="fs_24 fw_700 lh_133">9 768 ₽</p>
+                                </div>
+                                <button type="button" class="btn_incart btn_incart-green">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="programm__price programm__price_premium">
+                            <div class="wrapper">
+                                <div>
+                                    <p class="fs_18 fw_700 lh_156">Тариф «Премиум» 
+                                        <span class="tooltip">
+                                            <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date2"></button>
+                                            <span class="tooltip__text" role="tooltip" id="tooltip-label-date2">Дополнительные бады ускоряют процесс очищения, обмен веществ, способствуют быстрому восстановлению.</span>
+                                        </span>
+                                    </p>
+                                    <p class="fs_24 fw_700 lh_133">11 000 ₽</p>
+                                </div>
+                                <button type="button" class="btn_incart btn_incart-white">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="programm__block programm__block-step">
+                    <div class="programm__step">4 ЭТАП</div>
+                    <h3 class="fs_40 lh_120 fw_700">Парашилдс - Плюс</h3>
+                    <p class="programm__subtitle">Длительность программы: 30 дней</p>
+                    <div class="programm__block__wrapper">
+                        <div>
+                            <p class="fs_18 lh_156 mb_32">
+                                Программа Парашилдс - Плюс способствует комплексному поэтапному восстановлению здорового функционирования кишечника и нормализации процесса пищеварения в целом. 
+                            </p>
+                            <div class="programm__win mb_24">
+                                <p class="fs_18 lh_156">Поддерживает нормальную работу и укрепляет здоровье кишечника</p>
+                            </div>
+                            <div class="programm__win mb_24">
+                                <p class="fs_18 lh_156">улучшает пищеварение и усвоение питательных веществ</p>
+                            </div>
+                            <div class="programm__win mb_24">
+                                <p class="fs_18 lh_156">укрепляет иммунитет</p>
+                            </div>
+                        </div>
+                        <div class="programm__list__block">
+                            <p class="fs_24 fw_700 lh_133 mb_18">Какие продукты входят в состав:</p>
+                            <ul class="programm__list mb_0">
+                                <li> «Акваокс»</li>
+                                <li>«Ассимилятор»</li>
+                                <li>«Заферан»</li>
+                                <li>«Каскара Саграда»</li>
+                                <li>«Корал Артишок»</li>
+                                <li>«Корал-Майн»</li>
+                                <li>«Бурдок Рут»</li>
+                                <li> «Карнитин»</li>
+                                <li>«Лецитин»</li>
+                                <li>«Люцерна»</li>
+                                <li>«Магний»</li>
+                                <li>«Таурин» </li>
+                                <li>«Черный орех»</li>
+                                <li> «Омега - 3 ТГ»</li>
+                                <li>«Папайя»</li>
+                                <li>«Грингрин»</li>
+                                <li>«Супер-Флора»</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="programm__price programm__price_light">
+                        <div class="wrapper">
+                            <div>
+                                <p class="fs_18 fw_700 lh_156">Стоимость</p>
+                                <p class="fs_24 fw_700 lh_133">7 568 ₽</p>
+                            </div>
+                            <button type="button" class="btn_incart btn_incart-green">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="programm programm__slim">
+            <div class="container">
+                <h2 class="title mb_48">Курс <span>«Стройная Я»</span></h2>
+                <div class="programm__block">
+                    <h3 class="fs_40 lh_120 fw_700 mb_20">Массаж</h3>
+                    <div class="programm__block__wrapper2">
+                        <div>
+                            <p class="fs_18 lh_156 mb_48">
+                                Часто одних физических упражнений и диеты недостаточно для того, чтобы избавиться от целлюлита, сделать кожу более ровной и подтянутой. В этом случае на помощь приходят наши специализированные массажи.
+                            </p>
+                            <p class="fs_24 fw_700 lh_133 mb_20">Как вам поможет наш массаж</p>
+                            <ul class="programm__block__wrapper">
+                                <li class="programm__light-block">Уберет лишний вес</li>
+                                <li class="programm__light-block">Избавит от целлюлита</li>
+                                <li class="programm__light-block">Уберет излишки жировых отложений</li>
+                                <li class="programm__light-block">Устранит складок, растяжек</li>
+                                <li class="programm__light-block">Повысит упругость кожи</li>
+                                <li class="programm__light-block">Избавит от закупорки сальных желез</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="fs_18 lh_156">Мы предлагаем антицеллюлитный, лимфодренажный и комбинированный массажи, а также баночный и медовый массажи для отдельных участков тела.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

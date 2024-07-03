@@ -1,0 +1,89 @@
+.problems {
+    padding: 104px 0 112px;
+    &__wrapper {
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-auto-rows: 280px;
+        gap: 32px;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 34px;
+        height: 100%;
+        aspect-ratio: 1/1;
+        margin: 0 auto;
+        &_circle {
+            border-radius: 100%;
+        }
+        &_purple-middle {
+            background: var(--purple-middle);
+        }
+        &_purple-dark {
+            background: var(--purple-dark);
+        }
+        &_img-bg1 {
+            border-radius: 24px;
+            overflow: hidden;
+            background: url(../img/problems-item-bg-img1.jpg) no-repeat center/cover;
+        }
+        &_img-bg2 {
+            border-radius: 24px;
+            overflow: hidden;
+            background: url(../img/problems-item-bg-img2.jpg) no-repeat center/cover;
+        }
+        &_square {
+            border-radius: 16px;
+           
+        }
+        &_green-dark {
+            background-color: var(--green-dark);
+        }
+        &_green-middle {
+            background-color: var(--green-middle);
+        }
+        &_bg1 {
+            background-image: url(../img/problems-item-bg1.svg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &_bg2 {
+            background-image: url(../img/problems-item-bg2.svg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &_line {
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 91%;
+                height: 91%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 100%;
+                border: 2px solid var(--green-middle);
+            }
+        }
+        &_line2 {
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 91%;
+                height: 91%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border: 2px solid var(--green-dark);
+                border-radius: 12px;
+            }
+        }
+    }
+}
