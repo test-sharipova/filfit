@@ -1,0 +1,34 @@
+.action {
+    padding: 112px 0;
+    &__wrapper {
+        border-radius: 32px;
+        background: var(--orange-light);
+        padding: 48px 33px 30px 38px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 44px;
+    }
+    .title {
+        text-align: left;
+        span {
+            border-radius: 64px;
+            background: var(--purple-middle);
+            padding: 0 12px;
+        }
+    }
+    &__content {
+        &__photos {
+            position: relative;
+            display: flex;
+            transform: translateX(-25%);
+            margin-top: 55px;
+            img {
+                &:nth-child(2) {
+                    position: absolute;
+                    right: -26%;
+                    top: -20%;
+                }
+            }
+        }
+    }
+}

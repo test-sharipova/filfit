@@ -37,6 +37,14 @@ button, input, textarea, a {
     margin: 0;
     padding: 0;
 }
+.fs_14 {
+    font-size: 14px;
+    margin: 0;
+}
+.fs_16 {
+    font-size: 16px;
+    margin: 0;
+}
 .fs_18 {
     font-size: 18px;
     margin: 0;
@@ -149,6 +157,7 @@ button, input, textarea, a {
     background:  var(--orange-dark);
     height: 80px;
     transition: background-color .3s;
+    cursor: pointer;
     &:hover {
         background: #ffcc80;
     }
@@ -168,6 +177,7 @@ button, input, textarea, a {
     background:  var(--purple-dark);
     height: 80px;
     transition: background-color .3s;
+    cursor: pointer;
     &:hover {
         background: #cc3aff;
     }
@@ -187,6 +197,7 @@ button, input, textarea, a {
     background:  var(--green-dark);
     height: 80px;
     transition: background-color .3s;
+    cursor: pointer;
     &:hover {
         background: #95ffbf;
     }
@@ -208,6 +219,7 @@ button, input, textarea, a {
     border: none;
     width: fit-content;
     transition: background-color .3s;
+    cursor: pointer;
     span {
         display: block;
         width: 40px;
@@ -390,3 +402,5 @@ button, input, textarea, a {
 @import '_programm.scss';
 @import '_rew.scss';
 @import '_complex.scss';
+@import '_actions.scss';
+@import '_form.scss';
