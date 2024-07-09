@@ -46,4 +46,12 @@
             background: url(../img/price-bg_premium-orange.jpg) no-repeat center/cover;
         }
     }
+    &__photo {
+        
+        img {
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+    
 }
