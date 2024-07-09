@@ -374,7 +374,7 @@ button, input, textarea, a {
     padding: 8px;
     transition: background-color .3s;
     &:hover {
-        background-color: #95ffbf;;
+        background-color: #95ffbf;
     }
     &__img {
         display: block;
@@ -404,3 +404,6 @@ button, input, textarea, a {
 @import '_complex.scss';
 @import '_actions.scss';
 @import '_form.scss';
+@import '_cart.scss';
+
+@import '_modal.scss';

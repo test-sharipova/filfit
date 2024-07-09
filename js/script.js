@@ -72,7 +72,7 @@ for (let i = 0; i < element.length; i++) {
 
 //модальное окно
 $('.consult').on('click', function(){
-  $('.overlay, .modal-consult').fadeIn();
+  $('.overlay, .modal').fadeIn();
 });
 $('.modal__close').on('click', function(){
   $('.overlay, .modal').fadeOut();

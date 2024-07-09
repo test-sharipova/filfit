@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>ФилФитМарафон Корзина</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <script defer src="js/jquery-3.6.3.min.js"></script>
+    <script defer src="js/imask.js"></script>
+    <script defer src="js/slick.min.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header__wrapper">
+            <ul class="soc">
+                <li class="soc__item">
+                    <a href="#" class="soc__link">
+                        <span class="soc__link__img soc__link_telegram"></span>
+                        <span class="visually-hidden">телеграм</span>
+                    </a>
+                    
+                </li>
+                <li class="soc__item">
+                    <a href="#" class="soc__link ">
+                        <span class="soc__link__img soc__link_vk"></span>
+                        <span class="visually-hidden">вконтакте</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li><a href="index.html#train" class="menu__link">Программа тренировок</a></li>
+                <li><a href="index.html#detox" class="menu__link">Детокс программа</a></li>
+                <li><a href="index.html#slim" class="menu__link">Массаж</a></li>
+                <li><a href="index.html#rew" class="menu__link">Отзывы</a></li>
+            </ul>
+            <a href="cart.html" class="cart">
+                <span class="visually-hidden">Перейти в корзину</span>
+                <span class="cart__img"></span>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="cart-site__promo">
+            <div class="container">
+                <h1 class="cart-site__promo__title">Корзина</h1>
+            </div>
+        </section>
+        <section class="cart-site__inner">
+            <div class="container">
+                <div class="cart-site__inner__wrapper">
+                    <div class="cart-site__inner__content">
+                        <div class="cart-site__inner__item">
+                            <p class="cart-site__inner__name">Программа тренировок</p>
+                            <div class="cart-site__inner__pricewrap">
+                                <p class="cart-site__inner__price">49 990 ₽</p>
+                                <button type="button" class="remove-product"></button>
+                            </div>
+                        </div>
+                        <div class="cart-site__inner__item">
+                            <p class="cart-site__inner__name">Курс «Стройная Я»</p>
+                            <div class="cart-site__inner__pricewrap">
+                                <p class="cart-site__inner__price">50 000 ₽</p>
+                                <button type="button" class="remove-product"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-site__inner__result">
+                        <div class="wrapper">
+                            <p class="fs_24 lh_133 fw_700">Итого</p>
+                            <p class="cart-site__result">99 990 ₽</p>
+                        </div>
+                        <a href="#" class="btn_orange">Перейти к оплате</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cart-site__more">
+            <div class="container">
+                <h2 class="title">Больше пользы для вашего организма</h2>
+                <div class="cart-site__more__wrapper">
+                    <div class="cart-site__more__item cart-site__more__item-purple">
+                        <p class="fs_24 lh_133 fw_700 mb_8">Программа тренировок</p>
+                        <p class="fs_18 lh_156 fw_700 mb_16">Длительность: 11 недель</p>
+                        <p class="cart-site__more__item__text">Набор упражнений и тренировок, направленных на достижение ваших целей в фитнесе и здоровом образе жизни.</p>
+                        <p class="fs_40 fw_700 lh_120 mb_24">49 990 ₽</p>
+                        <div class="cart-site__more__wrapperbtn">
+                            <button type="button" class="btn_incart btn_incart-purple">В корзину</button>
+                            <button type="button" class="btn_green consult">Узнать больше</button>
+                        </div>
+                    </div>
+                    <div class="cart-site__more__item cart-site__more__item-green">
+                        <p class="fs_24 lh_133 fw_700 mb_8">Курс «Стройная Я»</p>
+                        <p class="fs_18 lh_156 fw_700 mb_16">Длительность: 10 процедур</p>
+                        <p class="cart-site__more__item__text">Комбинированный массаж в сочетании с обертыванием.</p>
+                        <p class="fs_40 fw_700 lh_120 mb_24">50 000 ₽</p>
+                        <div class="cart-site__more__wrapperbtn">
+                            <button type="button" class="btn_incart btn_incart-purple">В корзину</button>
+                            <button type="button" class="btn_green consult">Узнать больше</button>
+                        </div>
+                    </div>
+                    <div class="cart-site__more__item cart-site__more__item-orange">
+                        <p class="fs_24 lh_133 fw_700 mb_8">Детокс-программа. 1 этап</p>
+                        <p class="fs_18 lh_156 fw_700 mb_16">Длительность: 21 день</p>
+                        <p class="cart-site__more__item__text">Корал Детокс Плюс - это набор для активации выведения водо и жирорастворимых токсинов, которые накапливаются в нашем организме в связи с неправильным питанием, стрессами, воздействием физических, химических, биологических, радиационных факторов.</p>
+                        <p class="fs_40 fw_700 lh_120 mb_24">16 720 ₽</p>
+                        <div class="cart-site__more__item__tarifwrap">
+                            <input type="radio" name="detox-1" id="tarif-light" class="visually-hidden" value="tarif light">
+                            <label for="tarif-light" class="cart-site__more__item__tarif">Тариф «Лайт»</label>
+                            
+                            <input type="radio" name="detox-1" id="tarif-premium" class="visually-hidden" checked value="tarif premium">
+                            <label for="tarif-premium" class="cart-site__more__item__tarif">Тариф «Пермиум»</label>
+                            <span class="tooltip">
+                                <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date"></button>
+                                <span class="tooltip__text" role="tooltip" id="tooltip-label-date">Дополнительные бады ускоряют процесс очищения, обмен веществ, способствуют быстрому восстановлению.</span>
+                            </span>
+                            
+                        </div>
+                        <div class="cart-site__more__wrapperbtn">
+                            <button type="button" class="btn_incart btn_incart-purple">В корзину</button>
+                            <button type="button" class="btn_green consult">Узнать больше</button>
+                        </div>
+                    </div>
+                    <div class="cart-site__more__item cart-site__more__item-orange">
+                        <p class="fs_24 lh_133 fw_700 mb_8">Детокс-программа. 2 этап</p>
+                        <p class="fs_18 lh_156 fw_700 mb_16">Длительность: 30 день</p>
+                        <p class="cart-site__more__item__text">Парашилд Плюс — это расширенная антипаразитарная программа для интенсивной защиты от паразитов. Основана на комплексном действие растительных экстрактов, ферментов, пробиотиков, витаминов и минералов.</p>
+                        <p class="fs_40 fw_700 lh_120 mb_24">16 016 ₽</p>
+                        <div class="cart-site__more__item__tarifwrap">
+                            <input type="radio" name="detox-2" id="tarif-light1" class="visually-hidden" value="tarif light">
+                            <label for="tarif-light1" class="cart-site__more__item__tarif">Тариф «Лайт»</label>
+                            
+                            <input type="radio" name="detox-2" id="tarif-premium1" class="visually-hidden" checked value="tarif premium">
+                            <label for="tarif-premium1" class="cart-site__more__item__tarif">Тариф «Пермиум»</label>
+                            <span class="tooltip">
+                                <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date"></button>
+                                <span class="tooltip__text" role="tooltip" id="tooltip-label-date">Дополнительные бады ускоряют процесс очищения, обмен веществ, способствуют быстрому восстановлению.</span>
+                            </span>
+                            
+                        </div>
+                        <div class="cart-site__more__wrapperbtn">
+                            <button type="button" class="btn_incart btn_incart-purple">В корзину</button>
+                            <button type="button" class="btn_green consult">Узнать больше</button>
+                        </div>
+                    </div>
+                    <div class="cart-site__more__item cart-site__more__item-orange">
+                        <p class="fs_24 lh_133 fw_700 mb_8">Детокс-программа. 3 этап</p>
+                        <p class="fs_18 lh_156 fw_700 mb_16">Длительность: 14 день</p>
+                        <p class="cart-site__more__item__text">Программа Коло-Вада Плюс – эффективная комплексная программа, которая способствует очищению организма и восстановлению здоровой внутренней среды.</p>
+                        <p class="fs_40 fw_700 lh_120 mb_24">11 000 ₽</p>
+                        <div class="cart-site__more__item__tarifwrap">
+                            <input type="radio" name="detox-3" id="tarif-light2" class="visually-hidden" value="tarif light">
+                            <label for="tarif-light2" class="cart-site__more__item__tarif">Тариф «Лайт»</label>
+                            
+                            <input type="radio" name="detox-3" id="tarif-premium2" class="visually-hidden" checked value="tarif premium">
+                            <label for="tarif-premium2" class="cart-site__more__item__tarif">Тариф «Пермиум»</label>
+                            <span class="tooltip">
+                                <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date"></button>
+                                <span class="tooltip__text" role="tooltip" id="tooltip-label-date">Дополнительные бады ускоряют процесс очищения, обмен веществ, способствуют быстрому восстановлению.</span>
+                            </span>
+                            
+                        </div>
+                        <div class="cart-site__more__wrapperbtn">
+                            <button type="button" class="btn_incart btn_incart-purple">В корзину</button>
+                            <button type="button" class="btn_green consult">Узнать больше</button>
+                        </div>
+                    </div>
+                    <div class="cart-site__more__item cart-site__more__item-orange">
+                        <p class="fs_24 lh_133 fw_700 mb_8">Детокс-программа. 4 этап</p>
+                        <p class="fs_18 lh_156 fw_700 mb_16">Длительность: 30 день</p>
+                        <p class="cart-site__more__item__text">Программа Парашилдс - Плюс способствует комплексному поэтапному восстановлению здорового функционирования кишечника и нормализации процесса пищеварения в целом. </p>
+                        <p class="fs_40 fw_700 lh_120 mb_24">7 568 ₽</p>
+                        <div class="cart-site__more__item__tarifwrap">
+                            <input type="radio" name="detox-4" id="tarif-light3" class="visually-hidden" value="tarif light">
+                            <label for="tarif-light3" class="cart-site__more__item__tarif">Тариф «Лайт»</label>
+                            
+                            <input type="radio" name="detox-4" id="tarif-premium3" class="visually-hidden" checked value="tarif premium">
+                            <label for="tarif-premium3" class="cart-site__more__item__tarif">Тариф «Пермиум»</label>
+                            <span class="tooltip">
+                                <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date"></button>
+                                <span class="tooltip__text" role="tooltip" id="tooltip-label-date">Дополнительные бады ускоряют процесс очищения, обмен веществ, способствуют быстрому восстановлению.</span>
+                            </span>
+                            
+                        </div>
+                        <div class="cart-site__more__wrapperbtn">
+                            <button type="button" class="btn_incart btn_incart-purple">В корзину</button>
+                            <button type="button" class="btn_green consult">Узнать больше</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="form">
+        <div class="container">
+            <div class="form__wrapper">
+                <div class="form__content">
+                    <h2 class="title mb_20">Подберем лучший вариант для вас</h2>
+                    <p class="fs_18 lh_156">Мы предлагаем индивидуальный подход для КАЖДОГО и комбинированием программы в зависимости от вашего запроса.</p>
+                </div>
+                <form action="#" class="form__form">
+                    <input type="text" placeholder="Имя" class="form__input" required>
+                    <input type="text" class="phone form__input" placeholder="Телефон" required>
+                    <input type="email" placeholder="Почта" class="form__input">
+                    <div class="wrapper">
+                        <label class="policy-check">
+                            <input type="checkbox" class="visually-hidden policy-check" required>
+                            <span class="mark"></span>
+                        </label>
+                        <p class="fs_14 lh_143">Нажимая на кнопку, Вы соглашаетесь с политикой в области обработки и защиты персональных данных.</p>
+                    </div>
+                    <button type="submit" class="btn_purple">Проконсультироваться</button>
+                </form>
+            </div>
+            <div class="header__wrapper">
+                <ul class="soc">
+                    <li class="soc__item">
+                        <a href="#" class="soc__link">
+                            <span class="soc__link__img soc__link_telegram"></span>
+                            <span class="visually-hidden">телеграм</span>
+                        </a>
+                        
+                    </li>
+                    <li class="soc__item">
+                        <a href="#" class="soc__link ">
+                            <span class="soc__link__img soc__link_vk"></span>
+                            <span class="visually-hidden">вконтакте</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li><a href="#train" class="menu__link">Программа тренировок</a></li>
+                    <li><a href="#detox" class="menu__link">Детокс программа</a></li>
+                    <li><a href="#slim" class="menu__link">Массаж</a></li>
+                    <li><a href="#rew" class="menu__link">Отзывы</a></li>
+                </ul>
+                <a href="cart.html" class="cart">
+                    <span class="visually-hidden">Перейти в корзину</span>
+                    <span class="cart__img"></span>
+                </a>
+            </div>
+            <div class="footer__links">
+                <p class="fs_14 lh_143">Все права защищены</p>
+                <div>
+                    <a href="#" class="fs_14 lh_143">Политика конфиденциальности</a>
+                    <a href="#" class="fs_14 lh_143">Публичная оферта</a>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal -->
+     <div class="overlay"></div>
+     <div class="modal">
+        <button class="modal__close"></button>
+        <p class="fs_24 lh_133 fw_700 mb_24">Оставьте свои данные, и мы свяжемся с вами в ближайшее время</p>
+        <form action="#" class="form__form">
+            <input type="text" placeholder="Имя" class="form__input" required="">
+            <input type="text" class="phone form__input" placeholder="Телефон" required="">
+            <input type="email" placeholder="Почта" class="form__input">
+            <div class="wrapper">
+                <label class="policy-check">
+                    <input type="checkbox" class="visually-hidden policy-check" required="">
+                    <span class="mark"></span>
+                </label>
+                <p class="fs_14 lh_143">Нажимая на кнопку, Вы соглашаетесь с&nbsp;политикой в области обработки и защиты персональных данных.</p>
+            </div>
+            <button type="submit" class="btn_purple">Проконсультироваться</button>
+        </form>
+     </div>
+</body>
+</html>

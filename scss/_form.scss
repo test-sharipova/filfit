@@ -42,6 +42,12 @@
         width: 100%;
         margin-bottom: 32px;
     }
+    .cart {
+        background-color: var(--orange-dark);
+        &:hover {
+            background-color: var(--orange-middle);
+        }
+    }
 }
 .mark {
     width: 16px;
