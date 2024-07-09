@@ -74,12 +74,19 @@
     }
 }
 .cart-site__more {
-    padding: 74px 0 112px;
+    padding: 65px 0 112px;
+    .title {
+        font-size: 48px;
+        max-width: 752px;
+        margin: 0 auto;
+
+    }
     &__wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 32px;
-        margin-top: 64px;
+        margin-top: 57px;
+        grid-auto-rows: minmax(422px, auto);
     }
     &__item {
         padding: 40px;

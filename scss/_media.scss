@@ -35,6 +35,18 @@
             }
         }
     }
+    .cart-site {
+        &__more {
+            &__wrapper {
+                gap: 16px;
+            }
+            &__wrapperbtn {
+                .btn_green {
+                    padding-inline: 28px;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:1023px) {
@@ -111,6 +123,21 @@
             flex-direction: column;
         }
     }
+    .cart-site {
+        &__inner {
+            &__wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+        &__more {
+            &__wrapperbtn {
+                grid-template-columns: 1fr;
+            }
+            &__item {
+                padding: 24px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -136,14 +163,21 @@
         }
         &__item {
             a {
-                color: #000;
+                
                 font-size: 16px;
+                padding: 12px 0;
             }
         }
         
     }
     .hamburger {
         display: flex;
+    }
+    .header {
+        &__wrapper {
+            width: 95%;
+            padding: 8px 56px 8px 16px;
+        }
     }
     .promo {
         height: 500px;
@@ -216,6 +250,9 @@
                 font-size: 20px;
                 margin-bottom: 16px;
             }
+            h3 {
+                text-align: center;
+            }
            .fs_24 {
             font-size: 16px;
            }
@@ -244,6 +281,11 @@
                 gap: 12px;
             }
             
+        }
+        &__step {
+            height: 50px;
+            top: -25px;
+            left: 20px;
         }
         &__bonus {
             padding: 24px 24px 67%;
@@ -283,6 +325,9 @@
         }
         &__subtitle {
             font-size: 16px;
+            &.mb_50 {
+                margin-bottom: 16px;
+            }
         }
         &__list {
             &__block {
@@ -324,6 +369,10 @@
         height: 60px;
     }
     .action {
+        padding: 40px 0;
+        &__wrapper {
+            padding: 16px;
+        }
         &__photo {
             img {
                 width: 100%;
@@ -339,8 +388,117 @@
         }
     }
     .form {
+        border-radius: 40px 40px 0 0;
+        padding: 40px 0;
         &__wrapper {
             grid-template-columns: 1fr;
+            margin-bottom: 40px;
+        }
+        .header__wrapper {
+            padding-left: 16px;
+        }
+    }
+    .complex {
+        border-radius: 40px;
+        padding: 40px 0;
+        .programm__block__wrapper {
+            padding: 16px;
+        }
+        &__item {
+            font-size: 18px;
+            margin-bottom: 16px;
+            &::before {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    .cart-site {
+        &__promo {
+            border-radius: 0 0 40px 40px;
+            min-height: 300px;
+            padding-top: 150px;
+            padding-bottom: 40px;
+            &__title {
+                font-size: 36px;
+            }
+        }
+        &__inner {
+            padding: 40px 0;
+            &__item {
+                padding: 24px 12px;
+                gap: 12px;
+            }
+            &__name {
+                font-size: 16px;
+                line-height: normal;
+            }
+            &__price {
+                font-size: 20px;
+                white-space: nowrap;
+            }
+            &__pricewrap {
+                gap: 12px;
+            }
+            .remove-product {
+                width: 16px;
+                height: 16px;
+            }
+            &__content {
+                gap: 12px;
+            }
+            &__result {
+                padding: 16px;
+                .wrapper {
+                    margin-bottom: 24px;
+                }
+            }
+            .cart-site__result {
+                font-size: 32px;
+            }
+        }
+        &__more {
+            padding: 40px 0;
+            &__wrapper {
+                grid-template-columns: 1fr;
+
+            }
+            &__item {
+                .fs_40 {
+                    font-size: 32px;
+                }
+                &__tarif {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .modal {
+        width: 100%;
+        height: 100%;
+        transform: translate(0);
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        padding: 60px 16px 16px;
+        .fs_24 {
+            font-size: 16px;
+            text-align: center;
+        }
+        .form__input {
+            height: 48px;
+        }
+    }
+    .btn_purple, .btn_green, .btn_orange {
+        height: 60px;
+    }
+    .footer {
+        &__links {
+            flex-direction: column;
+            a {
+                display: block;
+                margin-bottom: 12px;
+            }
         }
     }
 }

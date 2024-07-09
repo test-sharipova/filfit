@@ -14,6 +14,9 @@ const menu = document.querySelector('.menu'),
         item.addEventListener('click', () => {
             hamburger.classList.toggle('hamburger_active');
             menu.classList.toggle('menu_active');
+            if(window.innerWidth < 767) {
+              body.classList.toggle('body_fixed');
+            }
         });
     });
 
@@ -77,3 +80,12 @@ $('.consult').on('click', function(){
 $('.modal__close').on('click', function(){
   $('.overlay, .modal').fadeOut();
 });
+
+//подсчет суммы в корзине
+var total = 0;
+  $('.cart-site__inner__price span').each(function() {
+    var price = parseFloat($(this).text().replace(' ', '')); 
+    total += price;
+  });
+  
+  $('.cart-site__result').text(total);
