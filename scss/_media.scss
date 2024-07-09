@@ -459,8 +459,12 @@
         }
         &__more {
             padding: 40px 0;
+            .title {
+                font-size: 32px;
+            }
             &__wrapper {
                 grid-template-columns: 1fr;
+                margin-top: 24px;
 
             }
             &__item {
